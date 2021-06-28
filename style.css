@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+div.start {
+    width: 800px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(105, 59, 59);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 3s;
+}
+
+
+button.start-button {
+    background-color: rgb(219, 221, 90);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: 3s;
+}
+
+div.wrap{
+    width: 800px;
+    height: 900px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px auto;
+}
+h1{
+    color: white;
+}
+main {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.cell{
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color:  blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.hide {
+    background-color: rgb(105, 59, 59);
+}
